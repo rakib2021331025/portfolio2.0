@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image.png" class="logo" width="150" height="50">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">my work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-row">
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I am <span>Rakib</span> from Bangladesh</h1>
+                </div>
+                <div class="header-image">
+                    <img src="background.png" alt="Rakib">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="formal.png" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi! I'm Rakib, a passionate Computer Science and Engineering student at Shahjalal University of
+                        Science and Technology (SUST), currently in my 3rd year, 1st semester. I come from Thakurgaon,
+                        where I completed my SSC at Nekmorod Alimuddin Government High School and my HSC at Thakurgaon
+                        Government College.
+
+                        Technology has always fascinated me, and I enjoy exploring new areas in programming, especially
+                        in languages like Java, Python, and C++. I'm also deeply interested in web development and AI
+                        projects.
+
+                        Beyond academics, I'm a huge cricket enthusiast—whether it's watching exciting matches or
+                        playing with friends, the game keeps me active and inspired. I believe in continuous learning,
+                        teamwork, and building real-world solutions that make a difference.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience', event)">Experience</p>
+                        <p class="tab-link" onclick="opentab('education', event)">Education</p>
+                    </div>
+
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages:</span><br>C, C++, Java, JavaScript</li>
+                            <li><span>Web Development:</span><br>HTML5, CSS3, JavaScript (DOM), Responsive Design
+                                (Flexbox, Grid)</li>
+                            <li><span>Core Concept:</span><br>OOP, DSA Basics</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>Portfolio Website</span><br>Built with HTML, CSS, JS - includes animation, navbar
+                            </li>
+                            <li><span>Student Result System</span><br>Java console-based application for result
+                                management</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>SSC</span><br>School: Nekmorod Alimuddin Govt. High School<br>GPA: 5.00</li>
+                            <li><span>HSC</span><br>College: Thakurgaon Govt. College<br>GPA: 5.00</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---services-->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I can build responsive websites using HTML, CSS, and
+                        JavaScript. Basic frontend web apps with interactive UI are also included.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop"></i>
+                    <h2>Java Projects </h2>
+                    <p>I can help with Java programming assignments,
+                        OOP concepts, and small Java projects like management systems or games</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-paint-brush"></i>
+                    <h2>Basic Graphic Design</h2>
+                    <p>I can design simple banners,
+                        posters, and thumbnails using Canva or Figma.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!---portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work"><img src="work1.png">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>Project Name: BondhuVerse
+
+                            Tagline: "Connect with your closest, vibe with the world."
+
+                            Project Name: VibeLink<br>
+
+                            Tagline: "Where conversations spark and stories grow."</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"><img src="work2.png">
+                    <div class="layer">
+                        <h3>Graphic Design</h3>
+                        <p>Project Name: PixelCrafter
+                            Tagline: "Crafting visuals, pixel by pixel."</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"><img src="work3.png">
+                    <div class="layer">
+                        <h3>Artificial Intelligence</h3>
+                        <p>Project Name: SynapSys
+                            Tagline: “Building intelligence, one neuron at a time.”</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work hidden-work"><img src="work4.jpg">
+                    <div class="layer">
+                        <h3>Software Project</h3>
+                        <p>Project Name: DevTrack<br>
+                            Tagline: "Efficient project management software."</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work hidden-work"><img src="work5.jpg">
+                    <div class="layer">
+                        <h3>Data Science</h3>
+                        <p>Project Name: PredictAI<br>
+                            Tagline: "Data-driven predictive insights."</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="btn" onclick="toggleWork()" id="see-more-btn">See more</a>
+
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> rakibhasan83012@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 01753952830</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/md.rakibul.islam.178551"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://wa.me/qr/OKA5KR5EHIRHA1"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="./cv.pdf" download="Rakib_CV.pdf" class="btn btn1">Download cv</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" rows="15" cols="50"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Rakib. Made with <i class="fa-solid fa-heart"></i> by Rakib</p>
+        </div>
+    </div>
+
+
+    <script>
+        let tablinks = document.getElementsByClassName("tab-link");
+        let tabcontents = document.getElementsByClassName("tab-content");
+        console.log(tablinks);
+
+        function opentab(tabname, event) {
+            console.log(tabname);
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        function toggleWork() {
+            const hiddenWorks = document.querySelectorAll('.hidden-work');
+            const btn = document.getElementById('see-more-btn');
+
+            if (btn.innerText === "See more") {
+                hiddenWorks.forEach(work => {
+                    work.style.display = 'block';
+                });
+                btn.innerText = "See less";
+            } else {
+                hiddenWorks.forEach(work => {
+                    work.style.display = 'none';
+                });
+                btn.innerText = "See more";
+            }
+        }
+    </script>
+</body>
+
+</html>
